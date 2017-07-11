@@ -1,0 +1,119 @@
+
+/*TODO:
+	3. SASS!!!!!
+	5. JS
+	1. Mobilka kretynie!!!!!!!!!!
+	2. Uporządkować
+	
+	4. BEM
+
+*/
+html{
+		font-size: 62.5%;
+}
+body {
+
+	font-family: "Source Sans Pro Bold";
+	background-color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	width:100%;
+}
+
+
+.logo{
+	padding: 2rem;
+}
+
+ul {
+	padding-top: 1.5rem;
+	padding-right: 3.0rem;
+}
+.jumbotron {
+	background-image: url("../img/jumbotron-bgr.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	min-height: 60.0rem; 
+}
+
+
+.page-header {
+		box-sizing: border-box;
+
+}
+
+footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+#portfolio{
+	background: #f2f5f7;
+	padding-bottom: 14.0rem;
+	padding-top: 8.0rem;
+
+
+}
+#portfolio p {
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-size: 1.2rem;
+
+
+}
+
+#portfolio h4 { 
+	text-align: center;
+	font-family: Lato;
+	font-size: 2.0rem;
+}
+
+h3{
+	text-align: center;
+	font-weight: bold;
+	font-family: Lato;
+	font-size: 2.8rem;
+}
+.icons p{
+	font-size: 1.1rem;
+}
+
+.thumbnail{
+	border: 0;
+}
+footer{
+	background-color: #2F4052;
+
+}
+footer h5{
+	color: #FFFFFF;
+}
+footer p{
+	color: #8C9AA8;
+}
+a:hover {
+    text-decoration: none;
+}
+.footer-small{
+	background-color: #283645;
+}
+.navbar{
+	background-color: #FFFFFF;
+}
+.contact-btn{
+	background: url("../img/button-contact.png") no-repeat;
+	width: 15.0rem;
+	height: 5.0rem;
+	background-size: 100% auto;
+
+}
+
+.subscribe-btn{
+	background: url("../img/button-subscribe.png") no-repeat;
+	width: 8.8rem;
+	height: 3.0rem;
+}
+.submit-form{
+	position: inline;
+}

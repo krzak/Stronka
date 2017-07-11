@@ -1,0 +1,111 @@
+html {
+		font-size: 62.5%;
+}
+body {
+
+	font-family: "Source Sans Pro Bold";
+	background-color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	width:100%;
+
+	ul {
+		padding-top: 1.5rem;
+		padding-right: 3.0rem;
+	}
+
+	h3 {
+		text-align: center;
+		font-weight: bold;
+		font-family: Lato;
+		font-size: 2.8rem;
+	}
+}
+
+.page-header {
+		box-sizing: border-box;
+		background-color: #FFFFFF;
+		.shrunk {
+			height: 2rem;
+		}
+
+}
+
+.logo{
+	padding: 2rem;
+}
+
+.jumbotron {
+	background-image: url("../img/jumbotron-bgr.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	min-height: 60.0rem; 
+}
+
+#portfolio{
+	background: #f2f5f7;
+	padding-bottom: 14.0rem;
+	padding-top: 8.0rem;
+
+	p {
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-size: 1.2rem;
+	}
+
+	h4 { 
+		text-align: center;
+		font-family: Lato;
+		font-size: 2.0rem;
+	}
+}
+
+.icons {
+	p{
+		font-size: 1.1rem;
+	}
+}
+
+.thumbnail {
+	border: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.contact-btn {
+	background: url("../img/button-contact.png") no-repeat;
+	width: 15.0rem;
+	height: 5.0rem;
+	background-size: 100% auto;
+}
+
+.submit-form {
+	position: inline;
+
+	.subscribe-btn{
+		background: url("../img/button-subscribe.png") no-repeat;
+		width: 8.8rem;
+		height: 3.0rem;
+	}
+}
+
+footer {
+	background-color: #2F4052;
+	width: 100%;
+  	box-sizing: border-box;
+  	padding: 1.5rem;
+
+  	h5 {
+		color: #FFFFFF;
+	}
+
+	p {
+		color: #8C9AA8;
+	}
+
+	.footer-small {
+		background-color: #283645;
+	}
+}
